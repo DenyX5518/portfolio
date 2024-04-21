@@ -1,0 +1,43 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    user-select: none;
+    background: rgb(63,63,63);
+}
+.carousel-control-prev-icon{
+    /*box-shadow: black 0 0 10px;*/
+    /*border-radius: 50%;*/
+    /*background-image: url("assets/Arrow.png");*/
+    transform:  translateX(-125px) translateY(50%);
+    width: 30px;
+    height: 30px;
+}
+.carousel-control-next-icon{
+    /*background-image: url("assets/Arrow.png");*/
+    width: 30px;
+    height: 30px;
+    /*box-shadow: black 0 0 10px;*/
+    /*border-radius: 50%;*/
+    transform:translateX(125px) translateY(50%);
+    /*margin-left: 80%;*/
+}
+/*.carousel-indicators{*/
+/*    transform: translateY(50px);*/
+/*}*/
+@font-face{
+    font-family: "Next Art";
+    src: url("src/assets/fonts/NEXT ART_Bold.otf");
+}
+@font-face {
+    font-family: "Arodora";
+    src: url("src/assets/fonts/ArodoraPro-Light.otf");
+}
+:root{
+    --primary: #E4E4E4;
+    --secondary: #E29D00;
+    --third: #2A2A2A;
+    --four: #00C4F0;
+    --five: #b1b1b1;
+    --six: #3F3F3FFF;
+}
